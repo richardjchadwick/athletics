@@ -40,11 +40,14 @@
 
 
 ## At the Meet
+- Set up Tent
+- Set up table
+- Set up generator (if required) OR run extension to AC power
+- Set up UPS
 - Set up mats
 - Set up reader
 - Set up cameras
 - Set up tent/table/ups/computer 
-
 
 ### Day of Meet Checks
 - Verify ping from computer to Trident Reader (192.168.0.101)
@@ -55,4 +58,13 @@
   - Enable TX
   - Tune antennas
   - Verify field is knee or better height
-- 
+ 
+### On Completion of the Meet
+- Verify Live Results updated
+- Post printable results (from Hytek)
+- Post printable results (From Hytek) to trackie.com
+- Email Hytek reports to Race Director
+- Ensure Chips / Shoe Tags Collected
+
+### After the Meet
+- Send invoice to race director
