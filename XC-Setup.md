@@ -1,13 +1,13 @@
 ##  General Configuration
 - FinishLynx setting
   - From https://finishlynx.com/tag/cross-country/
-    - Event/Results/TrackSelection = 0; 0=off 1=track selection (default) 2=ignore-out-of-bounds 3-new-results
+    - Event/Results/TrackSelection = 0; 0=off 1=track selection (default) 2=ignore-out-of-bounds 3=new-results
     - Laptime/FillinTime=2 (always fill in time not just when hw=none)
-    - Laptime/TotalLaps=1
-    - Database/Lif=Autosave=15
+    - Laptime/TotalLaps=1  OR Number of Laps
+    - Database/Lif=Autosave=5
   - Configure Line Labels for both cameras
   - Camera Speed = 500fps
-  - AutoCapture (leader=  trailer=  time= 
+  - AutoCapture (leader=99  trailer=99  mintime=1.0
   - Scoreboards
 
 
@@ -18,7 +18,7 @@
 - Ensure UPS is fully charged
 - Ensure Trident Reader is fully charged
 - Computer TCP/IP setup
-  - 192.168.0.1/24 gw:192.168.0.1 (cell modem)
+  - 192.168.0.5/24 gw:192.168.0.1 (cell modem) OR use cell-phone via Wifi
 - Mapping between RFID # Numbers and Bib #
   - In e:/Lynx/trident
   - Update mapping.sh
@@ -63,6 +63,7 @@
 - Verify Live Results updated
 - Post printable results (from Hytek)
 - Post printable results (From Hytek) to trackie.com
+- Post printable results (From Hytek) to live.athletics.net
 - Email Hytek reports to Race Director
 - Ensure Chips / Shoe Tags Collected
 
