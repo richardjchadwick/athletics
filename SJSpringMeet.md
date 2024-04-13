@@ -2,13 +2,12 @@
 
 - General Notes on the use of Divisions
   - One of my ongoing complaints is the use of Divisions when inappropriate ...
-    - But Steve says he gets lots of questions even registrants don't see categories U14 U16 U18 etc.
-    - So maybe the lie us useful but we have to be careful of the below on import
-      - age-ups when allowed are lost (they put themsleves in a different division but then we ignore division and just use age)
+    - But Steve says he gets lots of questions when registrants don't see categories U14 U16 U18 etc.
+    - So maybe the lie is useful but we have to be careful of the below on import
+      - age-ups when allowed are lost (they put themsleves in a different division but then we ignore divisions and just use age)
         - so disallow age-ups is one option
         - permit ag-ups but only on request by email
         - I could programtically deal with this but not in a way that would be usable by anyone else
-
   - The other is not using Divisions when appropriate e.g. SO, Para, University
     - if we don't identify these athletes separately then they get co-mingled with other athletes
     - so please add those devisions if allowed and create the events for them to enter on Trackie
@@ -16,6 +15,10 @@
   - Then what can be done is:
     - Create Hytek Meets that have Divcisions say: Age Class, SO, Para (other possibilties could be NBIAA, University, etc if they are being kept to their own events).
     - Collapse the age divisions for Age Classes (U14 U16 U18 etc into Age Class)
+   
+  - In general
+    - if Hytek is Meet Type Standard (no divisions) then you can only have one race of each type/age (range of ages)
+    - if Hytek is Meet Type Divisions by Event then you can have one race of each type/division (and optionlly by age within division.
 
 ## Review of Trackie Registration prior to the Meet (2024-04-13 RJC)
 - Questions?
@@ -34,5 +37,5 @@
     - top of p.1 "Final Schedules will be provided by May 19th, *2022*" should be 2024  
     - Registration section:  no "19" in English version of date, No Midnight Atlantic Time in French version
   - I much prefer Steve's Meet Package layout see https://files.trackie.com/uploads/event/2024-02-08-14-41-10-1110117540-906.pdf?rand=472908489
-    - especially his layout of field event schedule by area i.e. Horizontal Jumps, SHotput Circle, Long Throws, etc
-    - especially his layout of who can compete in which event
+    - +1 for his layout of field event schedule by competion area i.e. Horizontal Jumps, Shotput Circle, Long Throws, High Jump, etc
+    - +1 for his layout of who can compete in which event
