@@ -5,6 +5,10 @@
 - registered by deadline: 75
 - registered by late deadline: 130
 - There was 3 meets scheduled for this weekend: Red&BlackOpen (132), Defi Blue et Or (47). ANS Last Chance (231)
+
+## Athletic Live Usage
+- 389 Users,  850 Session, 8889 Pageviews
+
 ## Registration
 - too many UNB and SJTC athletes were entered after the registration deadline
 - Issue with Club Names:  realized afterward that the Club field was a textbox and not a drop-down
