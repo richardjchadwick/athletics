@@ -18,22 +18,22 @@
 ## Day before meet
 ### Computers
 - [ ] Update Hytek computer default printer to the site-specific printer
-- [ ] Ensure network mount for Z: points at c:\tfmeets, X: points to c:\tfmeets\Current Meet
+- [ ] Ensure network mount for Z: points at C:\tfmeets, X: points to C:\tfmeets\Current Meet
 ### Hytek
 - [ ] Make sure you have a workable Hytek file installed and ready to go on the Timing Computer in X:
 - [ ] Ensure the Report settings are set for site-specific printer
 - [ ] Make a hytek backup
 - [ ] Make sure the Hytek computer can access this file over the network
 - [ ] Ensure settings for Photofinish Update Start Lists (X:\lynx)
-  - Make sure you can successfully update start lists
+  - Make sure you can successfully update track event start lists
 - [ ] Ensure settings for Field Event Scoring (X:\lynx)
-  - Make sure you can successfully update start lists 
+  - Make sure you can successfully update field event start lists 
 ### FinishLynx
 - [ ] Choose the site specific profile: SJFH CEPS etc
 - [ ] Configure Meet Name: 
 - [ ] Event Directory, Database Input and Output Directory
 - [ ] Ensure Tempates Settings for each venue (X:\Templates)
-  - Templates names start with Venue name eg. SJFH-8lanes, CEPS-60m, etc
+  - Template names start with Venue name eg. SJFH-8lanes, CEPS-60m, etc
 
 ### 
 - Print Hytek Reports 
