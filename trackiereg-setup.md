@@ -14,21 +14,20 @@ As of April 2024, NB Track and Field Meets almost exclusvley use:
 
 ## Assumptions
 - Most NB meets do not use Divisions
-  - Because of the small number of participants in age-class meets tend to be too few athletes per division we have optioed to run events as "all-comers" events
- but use Hytek's Multi-Age Feature (ANB pays for this option) to combine events and split results by age division.
-  - exceptions are High School Meets, Jeux de l'Acadie, Middle School Meets which have predefined age or grade division and enough athletes per division
+  - Because of the small number of participants in age-class meets, there tends to be too few athletes per division.
+    - we have optied to run events as "all-comers" events but use Hytek's Multi-Age Feature (ANB pays for this option) to combine events and split results by age division.
+  - exceptions are NBIAA High School Meets, Jeux de l'Acadie, and Middle School Meets which have predefined age or grade divisions and enough athletes per division
 
-
-## Trackie Configuration and Hytek Configuration SHould Match
+## Trackie Configuration and Hytek Configuration SH\hould Match
 It is important to understand how the import process between Trackie and Hytek works, and how this process changes depending on configuration options.
 The import process depends on a text file which contains several record types e.g. I - athlete info, D - event entry details.
-Each record type has a predefined set of columns e.g.  FirstName; LastName' Birthdate; Club; Event; Seed; Division, etc (there are lots more)
+Each record type has a predefined set of columns e.g.  FirstName; LastName; Birthdate; Club; Event; Seed; Division, etc (there are lots more)
 
-- If your Hytek Meet Type Is Standard i.e. no Divisions then matching between Trackie and Hytek will be based on Event-Age (birthdate is used to calulate age)
-- If your Hytek Meet Type is Divisions by Event, then Matching between Trackie and Hytek will be based on Event-Division
+- If your Hytek Meet Type Is Standard i.e. no Divisions, then matching between Trackie and Hytek will be based on Event-Age (birthdate is used to calulate age)
+- If your Hytek Meet Type is Divisions by Event, then Matching between Trackie and Hytek will be based on Event and Division
 - I am ignoring Divions by Team, Division by Entry etc. as we don't use them 
 
-## Common Masmatch Problems
+## Common Mismatch Problems
 - No divisions defined in Hytek
    - Any information provided by Trackie re: Divisions is completely ignored.
     - If an athletes has been aged-up in Trackie, by using Divisions, that ifnormation is lost with the pursuing complaints that the athlete had been entered into the higher age category.
