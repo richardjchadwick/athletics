@@ -25,7 +25,22 @@
   - Lenovo IdeaPad s145-15iw
   -  16GB P-5405U  @2.30GHz 256GB SSD 15.6" Wifi USB-Ethernet 3*USB HDMI)
 
-
 ## Software
 ### FinishLynx
-- Current Version 13.00 (now includes NetCom module)
+- Installed Version 12.21
+  - Current Version 13.00 (now includes NetCom module)
+- Installed Profiles that I use at different venues
+  - these include site-specific scoreboards, wind guages, etc.
+  - Finishlynx needs a restart AFTER changing profiles
+  - SJTC2 and SJTC3 are configured for the CSG Profile
+- Installed AthleticLive Specific Scoreboards
+- Instaked FinishlynStart.wav
+### Hytek
+- Verified updated to current 6.0lb
+### AthleticLive
+#### Hytek Database Connection
+- see details at https://support.athletic.net/article/a4k6zwwd10-hy-tek-database-connection
+#### AthleticLive Local
+- install AthleticLiveLocal 3.7.18
+#### AthleticSB
+- install AthleticSB 1.5.17
