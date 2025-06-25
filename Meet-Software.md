@@ -22,7 +22,7 @@ When prompted, enter this license code:
     -  **AthleticsNewBrunswickTimingServices**
     -  Once you have installed or upgraded the license, please close and re-open the program.
     - Make sure you check for updates
-  - Make a backup copy of Hytek as c:\HySport - X.xx before upgrading
+  - Make a backup copy of Hytek as "C:\Hy Sport" as "C:\HySport - X.xx" where X.xx is the version before upgrading
 ### Athletic Live
 #### AthleticLiveLocal
     - see https://support.athletic.net/article/3e0o73vfqr-install-and-operate-athletic-live-local 
