@@ -16,10 +16,11 @@
     - PRIMARY will be where FinishLynx is run
     - PRIMARY will also be where the Hytek Meet Database is installed
     - PRIMARY will also be where AthleticLive Local will be run
-  - Designated a SECONDARY computer which will run Hytek
+  - Designated a SECONDARY computer which will be for the Hytek Operator to use.
 - For the CSG/Legion Trials and NB Provincial meet I have designated:
   - PRIMARY is SJTC2
   - SECONDARY is SJTC3
+  - Avoid SJTC1 -- I still haven't added memory to it.
 
 ### Configuration of PRIMARY
 - I have set up 3 permanent virtual drives using SUBST 
@@ -28,13 +29,13 @@
   - Y:  ->  "C:\tfmeets6\CurrentMeet\lynx"
 - I have shared "C:\tfmeets6\"
 - I have pre-installed a copy of the meet file frome June 25th
-- I have set up the meet on AthleticLive as https://live.iatt.ca/meets/54634
+- I have set up the meet on AthleticLive at https://live.iatt.ca/meets/54634
 
 - Almost everything is done from the PRIMARY computer (SJTC2)
   - The Hytek database is to be located on the PRIMARY computer (SJTC2)
-  - All copies of Hytek that access the meet **MUST** be in multi-user mode.
-  - All files related to the current meet are located under "C:\tfmeets6\CurrentMeet" which is alos X:\
-    - Install the meet file on X:\  ( "C:\tfmeets6\CurrentMeet" )
+  - All copies of Hytek that access the meet **MUST** be run in multi-user mode.
+  - All files related to the current meet are located under "C:\tfmeets6\CurrentMeet" which is also X:\
+    - Install the meet file on X:\2025   ( "C:\tfmeets6\CurrentMeet" )
     - The subdirectory lynx is where lynx.sch, lynx.evt and lynx.ppl will be read and written
     - The "lynx" subdirectory should be Y:\
     - In addition all event files (.evn .i01 .i02 and i03) and lif files are written to Y:|
@@ -47,7 +48,7 @@
 ### Configuration of SECONDARY
 - I have used persistent net use to map
   - W:  ->  "\\LAPTOP-SJTC2\tfmeets\" 
-  - X:  ->  "\\LAPTOP-JTC2\tfmeets6\CurrentMeet"
+  - X:  ->  "\\LAPTOP-SJTC2\tfmeets6\CurrentMeet"
   - Y:  ->  "\\LAPTOP-SJTC2\tfmeets\CurrentMeet\lynx"
 
     - If you need to make a change in Hytek that requires single user mode then:
@@ -81,7 +82,8 @@
     - [ ] Test printing (since I had no way to test printing)
   - [ ] At this point the Hytek operator can do whatever they need for the meet
  - [ ] PRIMARY set up continues
-   - [ ] Set up AtheticLIVE
+   ### Start AthleticLIVE Local
+   - [ ] Start AtheticLIVE Local
      - [ ] Make sure you have Internet access can you get to https://www.anb.ca ?
        - If my Eduroam didn't automatically login to WIFI (it should), you will have to tether a smartphone
        - Don't waste your time trying to use UNB Guest -- it will NOT work!
@@ -118,10 +120,9 @@
      - [ ] Do the rest of your camera set up.
        - Scoreboards should all just work as they are defined in the "CSG" Profile 
         - Wind Gauge should work as long as it is connected properly
-   - [ ] Optionally, Start Hytek as "Admin" in Multi-User Mode (only if you think you will need it).
+   - [ ] Optional: Start Hytek as "Admin" in Multi-User Mode (only if you think you will need it).
      - If the Hytek operator is busy entering field results, then I will use Hytek to "Get Times"
-        
-
-## What Chris/Bill need to do to shutdown AthleticLive
+     - 
+ ### Start AthleticLIVE Local
 - [ ] From the webpage http://localhost:8150 my email address will be in the top right corner
 - [ ] Click on it and choose "Shutdown"
