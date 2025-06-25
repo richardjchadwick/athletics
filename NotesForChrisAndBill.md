@@ -27,7 +27,6 @@
 - I have shared "C:\tfmeets6\"
 - I have pre-installed a copy of the meet file frome June 25th
 - I have set up the meet on AthleticLive at https://live.iatt.ca/meets/54634
-
 - Almost everything is done from the PRIMARY computer (SJTC2)
   - The Hytek database is to be located on the PRIMARY computer (SJTC2)
   - All copies of Hytek that access the meet **MUST** be run in multi-user mode.
@@ -41,18 +40,15 @@
       - import for Trackie import files
       - reports for PDF reports from Hytek
       - logos, templates, etc.
-
 ### Configuration of SECONDARY
 - I have used persistent net use to map
   - W:  ->  "\\LAPTOP-SJTC2\tfmeets\" 
   - X:  ->  "\\LAPTOP-SJTC2\tfmeets6\CurrentMeet"
   - Y:  ->  "\\LAPTOP-SJTC2\tfmeets\CurrentMeet\lynx"
-
     - If you need to make a change in Hytek that requires single user mode then:
       - Stop AthleticLIVE Local first (see below)
       - Do your single user activity
       - Start AthleticLIVE Local (see below)
-
 ## What Chris/Bill need to do to run FinishLynx / Hytek / AthleticLive
 - [ ] Ethernet Hub set up (Use Bill's Hub)
   - [ ] Network cable to cameras should be attached
@@ -119,7 +115,6 @@
         - Wind Gauge should work as long as it is connected properly
    - [ ] Optional: Start Hytek as "Admin" in Multi-User Mode (only if you think you will need it).
      - If the Hytek operator is busy entering field results, then I will use Hytek to "Get Times"
-     - 
- ### Start AthleticLIVE Local
+### Start AthleticLIVE Local
 - [ ] From the webpage http://localhost:8150 my email address will be in the top right corner
 - [ ] Click on it and choose "Shutdown"
