@@ -2,10 +2,11 @@
   - Automatic Capture Module (ACM)
   - RadioLynx (RL)
   - Network Com Port (NCP)
+  - Laptime (LT) - laptime with camera doesn't require license. ONLY required for RFID devices.
   - License Information
     - SaintJohn:  FL: 1239PM-I2UYE6 ACM: 1239PM-JVKJTR RL: 1239PM-PAoJIS NCP: 1239PM-F0ATJ1 
     - Richard:    FL: 1235BA-MQUM62 ACM: 1235BA-MQEIN0 RL: 1235BA-S5UADS NCP: 1235BA-QVWSD1 LT: 1235BA-1FSS5J
-    - SSNB/ANB:   FL:               ACM:               RL:               NCP:               LT: 
+    - SSNB/ANB:   FL: 1235BS-QUUM6M ACM: 1235BS-RJRRSX RL: 1235BS-XY7JAP NCP: 1235BS-NO91IY LT: 1235BS-YG59AG
     - Moncton:    FL:               ACM:               RL:               NCP:
   - Make a backup copy of Lynx as C:\Lynx-X.XX before installing new version
     
