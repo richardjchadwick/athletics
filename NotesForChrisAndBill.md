@@ -2,8 +2,8 @@
 - If it shows up as a bullet point like this line then it is information to understand (most of the top sections below)
 - [ ] if it shows up as a checklist like this line then it is something you have to do (most of the bottom sections below)  
 ## AthleticLIVE Documentation
-- The Athletic.net suport site, (https://support.athletic.net/)[https://support.athletic.net/] has documentation on everything available from athletic.net
-- Documentation for AthleticLIVE is at: (https://support.athletic.net/category/mc9m1hkboq-athleticlive-timers)[https://support.athletic.net/category/mc9m1hkboq-athleticlive-timers]
+- The Athletic.net suport site, [https://support.athletic.net/](https://support.athletic.net/) has documentation on everything available from athletic.net
+- Documentation for AthleticLIVE is at: [https://support.athletic.net/category/mc9m1hkboq-athleticlive-timers](https://support.athletic.net/category/mc9m1hkboq-athleticlive-timers)
   - this is the ONLY part of Athetic.Net we use  
   - ignore anything that talks about ftp or uploading data from Hytek.
     - We use AthleticLIVE Local which automates that process:
@@ -26,7 +26,7 @@
   - Y:  ->  "C:\tfmeets6\CurrentMeet\lynx"
 - I have shared "C:\tfmeets6\"
 - I have pre-installed a copy of the meet file frome June 25th
-- I have set up the meet on AthleticLive at (https://live.iatt.ca/meets/54634)[https://live.iatt.ca/meets/54634]
+- I have set up the meet on AthleticLive at [https://live.iatt.ca/meets/54634](https://live.iatt.ca/meets/54634)
 - Almost everything is done from the PRIMARY computer (SJTC2)
   - The Hytek database is to be located on the PRIMARY computer (SJTC2)
   - All copies of Hytek that access the meet **MUST** be run in multi-user mode.
@@ -76,7 +76,7 @@
   - [ ] At this point the Hytek operator can do whatever they need for the meet
    ### Start AthleticLIVE Local
      - DO below on the PRIMARY Computer
-     - [ ] Make sure you have Internet access. e.g. Can you access (https://www.anb.ca)[https://www.anb.ca] ?
+     - [ ] Make sure you have Internet access. e.g. Can you access [https://www.anb.ca](https://www.anb.ca) ?
        - If my Eduroam didn't automatically login to WIFI (it should), you will have to tether a smartphone
        - Don't waste your time trying to use UNB Guest -- it will NOT work!
      - [ ] Start AthleticLive Local -- there is an icon on the desktop
@@ -86,7 +86,7 @@
          - [ ] Start AthleticLive Local again
       - If it says "Welcome to AthleticLIVE Local version 3.9.25!" then:
         - [ ] DO NOT CLOSE that window.  Minimizie it!
-        - [ ] In Chrome go to  (http://localhost:8150)[http://localhost:8150]  this is the interface to AthleticLIVE Local
+        - [ ] In Chrome go to  [http://localhost:8150](http://localhost:8150)  this is the interface to AthleticLIVE Local
           - If prompted for my username (email) and password. See the file Username-Passwords.txt on the Desktop.
         - [ ] Click the "Choose Active Meet" button
         - [ ] For Meet Select "NBProv-CSG-Legion - #54634"
@@ -116,5 +116,5 @@
    - [ ] Optional: Start Hytek as "Admin" in Multi-User Mode (only if you think you will need it).
      - If the Hytek operator is busy entering field results, then I will use Hytek to "Get Times"
 ### Stop AthleticLIVE Local
-- [ ] From the webpage http://localhost:8150 my email address will be in the top right corner
+- [ ] From the webpage [http://localhost:8150])http://localhost:8150) my email address will be in the top right corner
 - [ ] Click on it and choose "Shutdown"
