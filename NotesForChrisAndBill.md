@@ -1,7 +1,6 @@
 # Notes for Chris and Bill for NB Provincials
 - If it shows up as a bullet point like this line then it is information to understand (the top sections below)
 - [ ] if it shows up as a checklist like this line then it is something you have to do (the bottome sections below)  
-
 ## AthleticLIVE Documentation
 - The Athletic.net suport site, https://support.athletic.net/ has documentation on everything available from athletic.net
 - Documentation for AthleticLIVE is at: https://support.athletic.net/category/mc9m1hkboq-athleticlive-timers
@@ -9,7 +8,6 @@
   - ignore anything that talks about ftp or uploading data from Hytek.
     - We use AthleticLIVE Local which automates that process:
       - when Hytek is updated, AthleticLIVE Local uploads the changes.
-
 ## Overview of What I Have Done for Running AthleticLive
 - In order to easily use the AthleticLIVE suite of software with both FinishLynx and Hytek I did the following:
   - Deignated a PRIMARY computer:
@@ -21,7 +19,6 @@
   - PRIMARY is SJTC2
   - SECONDARY is SJTC3
   - Avoid SJTC1 -- I still haven't added memory to it.
-
 ### Configuration of PRIMARY
 - I have set up 3 permanent virtual drives using SUBST 
   - W:  ->  "C:\tfmeets6"
