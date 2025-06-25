@@ -60,7 +60,7 @@
   - [ ] Login using PIN
   - [ ] Verify W: X: Y: subst mappings - type **subst** in a cmd window
   - [ ] Start Hytek in "Single User Mode" as "Admin"
-    - [ ] Make sure you are using the database "C:\tfmeets6\CurrentMeet\2025 NBCHamps-CSG-Legions.mdb"
+    - [ ] Make sure you are using the database "C:\tfmeets6\CurrentMeet\2025 NBChamps-CSG-Legions.mdb"
     - [ ] Restore the latest backup
     - [ ] Change to Multi-User mode: "File /  Open in Multi-User Mode" OR Close Hytek
 - [ ] SECONDARY set up
@@ -76,8 +76,7 @@
   - [ ] At this point the Hytek operator can do whatever they need for the meet
  - [ ] PRIMARY set up continues
    ### Start AthleticLIVE Local
-   - [ ] Start AtheticLIVE Local
-     - [ ] Make sure you have Internet access can you get to https://www.anb.ca ?
+     - [ ] Make sure you have Internet access. e.g. Can you get to https://www.anb.ca ?
        - If my Eduroam didn't automatically login to WIFI (it should), you will have to tether a smartphone
        - Don't waste your time trying to use UNB Guest -- it will NOT work!
      - [ ] Start AthleticLive Local -- there is an icon on the desktop
@@ -90,9 +89,10 @@
         - [ ] In Chrome go to  http://localhost:8150  this is the interface to AthleticLIVE Local
           - If prompted for my username (email) and password. See the file Username-Passwords.txt on the Desktop.
         - [ ] Click the "Choose Active Meet" button
-        - [ ] For Meet Select "NBProv-CSG-Legion - $54634"
+        - [ ] For Meet Select "NBProv-CSG-Legion - #54634"
         - [ ] For Hytek Database enter (include the quotes): "X:\2025 NBChamps-CSG-Legions.mdb"
           - you can also use File Manager to navigate to that file and use the "Copy as Path" to paste it.
+          - the path "C:\tfmeets\CurrentMeet\2025 NBChamps-CSG-Legions.mdb" will also work.
         - [ ] Ensure "Enable Automatic Sync" is checked
         - [ ] The rest of the options are self-explanatory and shouldn't need to be changed.
         - [ ] Scroll to the bottom of the page and Click "Submit"
@@ -103,8 +103,8 @@
           - [ ] One is to the Admin page for the meet - Open it
           - [ ] One is to the pages that everyone sees - Open it
           - [ ] Use these to ensure eveything is working.
-          - [ ] If you want to anything more READ the DOCUMENTATION!
-   - [ ] Set Up Hytek
+          - [ ] If you want to do anything more READ the DOCUMENTATION!
+   - [ ] Set Up FinishLynx
      - [ ] Connect Capture Button to USB port
      - [ ] Start FinishLynx
      - [ ] Verify that you are using the "CSG" Profile"Can Connect to Hytek Database" box
