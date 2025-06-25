@@ -38,7 +38,7 @@
     - We use AthleticLIVE Local which automates that process:
       - when Hytek is updated, AthleticLIVE Local uploads the changes.
 
-## Overview of What I Have Done.
+## Overview of What I Have Done for Running AthleticLive
 - In order to easily use the AthleticLIVE suite of software with both FinishLynx and Hytek I did the following:
   - Deignated a PRIMARY computer:
     - PRIMARY will be where FinishLynx is run
@@ -73,4 +73,10 @@
 
 ### Configuration of SECONDARY
 I have set up 
- 
+
+
+## WHat Chris needs to do to run AthleticLive
+- [ ] Connect PRIMARY and SECONDARY computers to network hub (uses Bill's)
+- [ ] Power up PRIMARY
+- [ ] 
+  
