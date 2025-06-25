@@ -1,4 +1,4 @@
-# Notes for Chris Alward for NB Provincials
+# Notes for Chris and Bill for NB Provincials
 - If it shows up as a bullet point like this line then it is information to understand (the top sections below)
 - [ ] if it shows up as a checklist like this line then it is something you have to do (the bottome sections below)  
 
