@@ -53,68 +53,68 @@
 - [ ] Ethernet Hub set up (Use Bill's Hub)
   - [ ] Network cable to cameras should be attached
   - [ ] Power ON Hub
-- [ ] PRIMARY initial set up 
-  - [ ] Connect SJTTC2 Ethernet Dongle to SJTC2  (closest USB port to front)
-  - [ ] Connect SJTC2 Ethernet to Hub
-  - [ ] Power SJTC2 ON
-  - [ ] Login using PIN
-  - [ ] Verify W: X: Y: subst mappings - type **subst** in a cmd window
-  - [ ] Start Hytek in "Single User Mode" as "Admin"
-    - [ ] Make sure you are using the database "C:\tfmeets6\CurrentMeet\2025 NBChamps-CSG-Legions.mdb"
-    - [ ] Restore the latest backup
-    - [ ] Change to Multi-User mode: "File /  Open in Multi-User Mode" OR Close Hytek
-- [ ] SECONDARY set up
-  - [ ] Connect SJTC3 Ethernet Dongle to SJTC3 (closest USB port to front) - This is SECONDARY
-  - [ ] Connect SJTC3 Ethernet to Hub
-  - [ ] Power SJTC3 ON
-  - [ ] Login Using PIN
-  - [ ] Verify W: X: Y: net use mappings - Use FileManager to verify you have connectivity to W:, X: and Y:
-  - [ ] Start Hytek
-    - [ ] Should automatically open the NB Provincial Meet
-    - [ ] Sign into Hytek as "Run1" in Multi-User mode
-    - [ ] Test printing (since I had no way to test printing)
-  - [ ] At this point the Hytek operator can do whatever they need for the meet
-   ### Start AthleticLIVE Local
-     - DO below on the PRIMARY Computer
-     - [ ] Make sure you have Internet access. e.g. Can you access [https://www.anb.ca](https://www.anb.ca) ?
-       - If my Eduroam didn't automatically login to WIFI (it should), you will have to tether a smartphone
-       - Don't waste your time trying to use UNB Guest -- it will NOT work!
-     - [ ] Start AthleticLive Local -- there is an icon on the desktop
-       - If it says "WARNING: Unable to connect to the internet."
-         - [ ] Verify you do have Internet
-         - [ ] Close the AthleticLive Window
-         - [ ] Start AthleticLive Local again
-        - If it says "Welcome to AthleticLIVE Local version 3.9.25!" then:
-          - [ ] DO NOT CLOSE that window.  Minimizie it!
-          - [ ] In Chrome go to  [http://localhost:8150](http://localhost:8150)  this is the interface to AthleticLIVE Local
-            - If prompted for my username (email) and password. See the file Username-Passwords.txt on the Desktop.
-          - [ ] Click the "Choose Active Meet" button
-          - [ ] For Meet Select "NBProv-CSG-Legion - #54634"
-          - [ ] For Hytek Database enter (include the quotes): "X:\2025 NBChamps-CSG-Legions.mdb"
-            - you can also use File Manager to navigate to that file and use the "Copy as Path" to paste it.
-            - the path "C:\tfmeets\CurrentMeet\2025 NBChamps-CSG-Legions.mdb" will also work.
-          - [ ] Ensure "Enable Automatic Sync" is checked
-          - [ ] The rest of the options are self-explanatory and shouldn't need to be changed.
-          - [ ] Scroll to the bottom of the page and Click "Submit"
-          - [ ] Verify you have a Green Highlighted "Can Connect to Hytek Database" box on the webpage now.
-            - If not, you have either the wrong database path OR someone has it open in Single-User Mode.
-        - At this point the database will sync to Athletic Live from now on.
-        - There will be two links under the Green Highlighted "Can Connect to Hytek Database" box
-          - [ ] One is to the Admin page for the meet - Open it
-          - [ ] One is to the pages that everyone sees - Open it
-          - [ ] Use these to ensure eveything is working.
-          - [ ] If you want to do anything more READ the DOCUMENTATION!
-  ### Set Up FinishLynx
-     - [ ] Connect Capture Button to USB port
-     - [ ] Start FinishLynx
-     - [ ] Verify that you are using the "CSG" Profile
-       - If not you can change to the "CSG" Profile under Options / General Profile
-       - Finishlynx requires a restart in order to change Profiles
-     - [ ] Do the rest of your camera set up.
-       - Scoreboards should all just work as they are defined in the "CSG" Profile 
-        - Wind Gauge should work as long as it is connected properly
-   - [ ] Optional: Start Hytek as "Admin" in Multi-User Mode (only if you think you will need it).
-     - If the Hytek operator is busy entering field results, then I will use Hytek to "Get Times"
-  ### Stop AthleticLIVE Local
-  - [ ] From the webpage [http://localhost:8150])http://localhost:8150) my email address will be in the top right corner
-  - [ ] Click on it and choose "Shutdown"
+### PRIMARY initial set up 
+- [ ] Connect SJTTC2 Ethernet Dongle to SJTC2  (closest USB port to front)
+- [ ] Connect SJTC2 Ethernet to Hub
+- [ ] Power SJTC2 ON
+- [ ] Login using PIN
+- [ ] Verify W: X: Y: subst mappings - type **subst** in a cmd window
+- [ ] Start Hytek in "Single User Mode" as "Admin"
+  - [ ] Make sure you are using the database "C:\tfmeets6\CurrentMeet\2025 NBChamps-CSG-Legions.mdb"
+  - [ ] Restore the latest backup
+  - [ ] Change to Multi-User mode: "File /  Open in Multi-User Mode" OR Close Hytek
+### SECONDARY set up
+- [ ] Connect SJTC3 Ethernet Dongle to SJTC3 (closest USB port to front) - This is SECONDARY
+- [ ] Connect SJTC3 Ethernet to Hub
+- [ ] Power SJTC3 ON
+- [ ] Login Using PIN
+- [ ] Verify W: X: Y: net use mappings - Use FileManager to verify you have connectivity to W:, X: and Y:
+- [ ] Start Hytek
+  - [ ] Should automatically open the NB Provincial Meet
+  - [ ] Sign into Hytek as "Run1" in Multi-User mode
+  - [ ] Test printing (since I had no way to test printing)
+  - At this point the Hytek operator can do whatever they need for the meet
+### Start AthleticLIVE Local
+- Do the below on the PRIMARY Computer
+- [ ] Make sure you have Internet access. e.g. Can you access [https://www.anb.ca](https://www.anb.ca) ?
+  - If my Eduroam didn't automatically login to WIFI (it should), you will have to tether a smartphone
+  - Don't waste your time trying to use UNB Guest -- it will NOT work!
+- [ ] Start AthleticLive Local -- there is an icon on the desktop
+  - If it says "WARNING: Unable to connect to the internet."
+    - [ ] Verify you do have Internet
+    - [ ] Close the AthleticLive Window
+    - [ ] Start AthleticLive Local again
+  - If it says "Welcome to AthleticLIVE Local version 3.9.25!" then:
+    - [ ] DO NOT CLOSE that window.  Minimizie it!
+    - [ ] In Chrome go to  [http://localhost:8150](http://localhost:8150)  this is the interface to AthleticLIVE Local
+      - If prompted for my username (email) and password. See the file Username-Passwords.txt on the Desktop.
+    - [ ] Click the "Choose Active Meet" button
+    - [ ] For Meet Select "NBProv-CSG-Legion - #54634"
+    - [ ] For Hytek Database enter (include the quotes): "X:\2025 NBChamps-CSG-Legions.mdb"
+      - you can also use File Manager to navigate to that file and use the "Copy as Path" to paste it.
+      - the path "C:\tfmeets\CurrentMeet\2025 NBChamps-CSG-Legions.mdb" will also work.
+    - [ ] Ensure "Enable Automatic Sync" is checked
+    - [ ] The rest of the options are self-explanatory and shouldn't need to be changed.
+    - [ ] Scroll to the bottom of the page and Click "Submit"
+    - [ ] Verify you have a Green Highlighted "Can Connect to Hytek Database" box on the webpage now.
+      - If not, you have either the wrong database path OR someone has it open in Single-User Mode.
+      - At this point the database will sync to Athletic Live from now on.
+    - There will be two links under the Green Highlighted "Can Connect to Hytek Database" box
+      - [ ] One is to the Admin page for the meet - Open it
+      - [ ] One is to the pages that everyone sees - Open it
+      - [ ] Use these to ensure eveything is working.
+      - [ ] If you want to do anything more READ the DOCUMENTATION!
+### Set Up FinishLynx
+- [ ] Connect Capture Button to USB port
+- [ ] Start FinishLynx
+- [ ] Verify that you are using the "CSG" Profile
+  - If not you can change to the "CSG" Profile under Options / General Profile
+  - Finishlynx requires a restart in order to change Profiles
+- [ ] Do the rest of your camera set up.
+  - Scoreboards should all just work as they are defined in the "CSG" Profile 
+  - Wind Gauge should work as long as it is connected properly
+ - [ ] Optional: Start Hytek as "Admin" in Multi-User Mode (only if you think you will need it).
+   - If the Hytek operator is busy entering field results, then I will use Hytek to "Get Times"
+### Stop AthleticLIVE Local
+- [ ] From the webpage [http://localhost:8150])http://localhost:8150) my email address will be in the top right corner
+- [ ] Click on it and choose "Shutdown"
