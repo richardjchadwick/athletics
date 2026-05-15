@@ -5,7 +5,7 @@ The timeline below is an overview. Follow links for more details.
   - [ ] Prepare techical package for meet
   - [ ] Check Supplies (bibs, hip numbers, printer paper, printer toner, duct tape, masking tape)
   - [ ] Setup Trackie registration
-  - [ ] Configure Hytek Meet Manager
+  - [ ] Configure Hytek Meet Manager to match Trackie
   - [ ] Preliminary setup of live results
 
 ## Week before the meet
@@ -14,7 +14,7 @@ The timeline below is an overview. Follow links for more details.
   - [ ] Laptop security and application updates
   - [ ] Laptop suspend Windows updates
   - [ ] Perform daily download, import and verification of registrations
-  - [ ] Check Supplies (bibs, hip numbers, printer paper, printer toner, duct tape, masking tape)
+  - [ ] Check Supplies (bibs, hip numbers, printer paper, printer toner, duct tape, masking tape, gaffer's tape, electrical tape)
 ## Two days before meet (close of early registration)
   - [ ] Prepare detailed schedule of events in Hytek
   - [ ] Synchronize Hytek with live results (post schedule and performance lists)
