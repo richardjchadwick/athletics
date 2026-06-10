@@ -18,7 +18,7 @@ jobs:
       - name: Convert MD to PDF
         uses: baileyjm02/markdown-to-pdf@v1.2.0
         with:
-          input_path: README.md # Change this if your file has a different name
+          input_path: PG/  # Change this if your file or directory of files has a different name
           output_dir: pdf-output
           # Optional: You can uncomment the line below to add a custom CSS theme
           # build_html: true
