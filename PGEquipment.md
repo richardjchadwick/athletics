@@ -1,0 +1,23 @@
+### Pearlgate TFC Timing Equipment
+- Vision Camera (SN: 50029 RAM: 256MB)
+  - Timing Enabled 
+  - Standard Resolution (1000fps 640 pixels)
+  - Manual Lens
+  - Connection Box
+  - POE Injector
+  - 100m XLR start cable on spool with transducer for wired starts
+- Manfrotto Black Aluminum Geared Tripod
+  - Manfrotto 410 Junior Geared Head 
+- RadioLynx Wireless Start System
+  - Transmitter w transducer, transducer cable and antenna
+  - Receiver w Antenna 
+- Lynx Wind Gauge
+  - Tripod
+  - 50m XLR cable and connectors
+  - XLR to 9-pin Serial adapater
+- Electronumeric Race Clock Model: [607-9XLC-RD](https://raceclock.com/products/finishlynx-raceclocks/6-digit-ultra-bright-led-finishlynx-raceclocks/6-digit-ultra-bright-led-finishlynx/?attribute_6-digit-ultra-bright-led=Single+Sided%2C+9+Inch+tall+LEDs%2C+model+607-9XL-RD)
+- See [manual])https://raceclock.com/wp-content/uploads/2018/05/Raceclock_XLC_Owners_Manual.pdf)
+  - Could not find charger
+  - Could not data cable: Cable CA45-50
+  - Tripod
+- 8-port TP-link network switch w POE  (Jeff found a power adapater)
