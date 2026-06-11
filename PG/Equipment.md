@@ -20,7 +20,7 @@
   - XLR to 9-pin Serial adapater
 - Electronumeric Race Clock Model: [607-9XLC-RD](https://raceclock.com/products/finishlynx-raceclocks/6-digit-ultra-bright-led-finishlynx-raceclocks/6-digit-ultra-bright-led-finishlynx/?attribute_6-digit-ultra-bright-led=Single+Sided%2C+9+Inch+tall+LEDs%2C+model+607-9XL-RD)
 - See [manual](https://raceclock.com/wp-content/uploads/2018/05/Raceclock_XLC_Owners_Manual.pdf)
-  - Could not find charger: 
+  - Could not find charger: Charger 840-064
   - Could not find data cable: Cable CA45-50
   - Speaker Mount/Tripod for Raceclock (not tested)
 - 8-port TP-link network switch with POE  (Jeff found or replaced the power adapter)
