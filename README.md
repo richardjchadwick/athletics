@@ -1,6 +1,6 @@
-# ["It'a About Time" Timing](https://live.iatt.ca/)
+# ["It's About Time" Timing](https://live.iatt.ca/)
 - Live Results: https://live.iatt.ca/
-## Athletics (aka Track & Field)
+## Athletics (Track & Field)
 
 ## Cross Country
 
