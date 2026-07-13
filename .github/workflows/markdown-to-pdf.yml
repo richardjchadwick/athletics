@@ -20,7 +20,7 @@ jobs:
         with:
           input_path: PG  # Change this if your file or directory of files has a different name
           output_dir: pdf-output
-          build_html: true
+        
 
       # Step 3: Upload the PDF so you can download it from the GitHub Actions dashboard
       - name: Upload PDF Artifact
